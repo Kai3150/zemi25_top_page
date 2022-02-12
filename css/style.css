@@ -105,7 +105,7 @@ h1, h2, h3{
 	width: 200px;
 	height: 200px;
 	margin: 20px;
-	border: 9px solid #00cc00;
+	border: 9px solid black;
 }
 
 #sns img{
@@ -128,8 +128,21 @@ section{
 	text-align: center;
 }
 
+ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
 li{
-	text-align: left;
+	width:16%;
+	list-style: none;
+}
+
+li img{
+	width: 100%;
+
 }
 
 p{
